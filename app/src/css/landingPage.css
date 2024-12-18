@@ -1,0 +1,70 @@
+/* Home Page Styles */
+.home {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .home h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+  
+  .home .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .home .cta-buttons button {
+    padding: 1rem 2rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home .cta-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  @media (max-width: 768px) {
+    .home h1 {
+      font-size: 2rem;
+    }
+  
+    .home p {
+      font-size: 1rem;
+    }
+  
+    .home .cta-buttons {
+      flex-direction: column;
+    }
+  
+    .home .cta-buttons button {
+      width: 100%;
+    }
+  }
+  
+  /* CSS for Image */
+.image-container {
+  text-align: center; /* Centers the image horizontally */
+  margin: 20px 0; /* Adds some space above and below the image */
+}
+
+.image-container img {
+  width: 80%; /* Adjust this value for responsiveness */
+  max-width: 1000px; /* Maximum width for larger screens */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 10px; /* Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+}
